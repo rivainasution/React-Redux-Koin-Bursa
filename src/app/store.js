@@ -1,8 +1,16 @@
-import { configureStore } from '@reduxjs/toolkit';
-import counterReducer from '../features/counter/counterSlice';
+import { 
+  configureStore 
+} from '@reduxjs/toolkit';
+import { 
+  assetReducer,
+  exchangeReducer,
+  rateReducer 
+} from '../features';
 
 export const store = configureStore({
   reducer: {
-    counter: counterReducer,
+    asset: assetReducer,
+    rate: rateReducer,
+    exchange: exchangeReducer
   },
 });
