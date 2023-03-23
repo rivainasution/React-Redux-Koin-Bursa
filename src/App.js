@@ -43,16 +43,6 @@ function App() {
             />} 
           />
           <Route 
-            path='React-Redux-Koin-Bursa' 
-            element={<Markets 
-              currencySymbol={currencySymbol} 
-              rates={rates} 
-              symbol={symbol} 
-              setPage={setPage} 
-              setDetailId={setDetailId}
-            />} 
-          />
-          <Route 
             path={`detail/${detailId}`} 
             element={<Detail 
               detailId={detailId}
