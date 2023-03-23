@@ -14,6 +14,7 @@ import {
 //TODO: Start Function
 export default function Price ({data, currencySymbol, rates, symbol}){
     const [add, setAdd] = useState(false);
+    
     const WatchlistHandler = () => {
         if (add === false){
             return setAdd(true);
