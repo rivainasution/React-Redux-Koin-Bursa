@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/React-Redux-Koin-Bursa/static/css/main.e790f3a7.css",
-    "main.js": "/React-Redux-Koin-Bursa/static/js/main.d16e02c5.js",
+    "main.js": "/React-Redux-Koin-Bursa/static/js/main.8fc77e90.js",
     "static/media/logo.png": "/React-Redux-Koin-Bursa/static/media/logo.88b0070c11262e0b9e4f.png",
     "index.html": "/React-Redux-Koin-Bursa/index.html",
     "main.e790f3a7.css.map": "/React-Redux-Koin-Bursa/static/css/main.e790f3a7.css.map",
-    "main.d16e02c5.js.map": "/React-Redux-Koin-Bursa/static/js/main.d16e02c5.js.map"
+    "main.8fc77e90.js.map": "/React-Redux-Koin-Bursa/static/js/main.8fc77e90.js.map"
   },
   "entrypoints": [
     "static/css/main.e790f3a7.css",
-    "static/js/main.d16e02c5.js"
+    "static/js/main.8fc77e90.js"
   ]
 }
