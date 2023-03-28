@@ -24,7 +24,7 @@ export default function DetailMarket({
     }
     return (
         <Container>
-            <div className='d-flex justify-content-between my-2'>
+            <div className='d-flex flex-column flex-lg-row justify-content-between my-2'>
                 <span className='fw-bold'>Top 100 coin di exchange {marketId}</span>
                 <input type='text' onChange={handleFilter}/>
             </div>

@@ -14,7 +14,7 @@ export default function DetailMarket({columns, exchange, filter, setFilter}){
     }
     return (
         <Container>
-            <div  className='d-flex justify-content-between my-2'>
+            <div  className='d-flex flex-column flex-lg-row justify-content-between my-2'>
                 <span className='fw-bold'>Top 100 Exchange List</span>
                 <input type='text' onChange={handleFilter}/>
             </div>

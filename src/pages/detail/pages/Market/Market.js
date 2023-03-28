@@ -28,7 +28,7 @@ export default function Market({
         //TODO: Show table market
         <Container>
             <h4 className="mt-3">Market {detailId}</h4>
-            <div  className='d-flex justify-content-between my-2'>
+            <div  className='d-flex flex-column flex-lg-row justify-content-between my-2'>
                 <span className='fw-bold'>Anda bisa jual - beli coin {detailId} favoritmu di market berikut</span>
                 <input type='text' onChange={handleFilter}/>
             </div>

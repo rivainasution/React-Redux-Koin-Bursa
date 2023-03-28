@@ -4,7 +4,7 @@ import {
 import { 
   assetReducer,
   exchangeReducer,
-  rateReducer 
+  rateReducer
 } from '../features';
 
 export const store = configureStore({
